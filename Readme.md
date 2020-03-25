@@ -16,11 +16,11 @@ $ make build_api
 $ make deploy_greeter_service
 $ make deploy_api
 
-$ curl http://localhost:30080/
+$ curl http://127.0.0.1:30080/
 "Server is running"
 
-$ curl  http://localhost:30080/greet/YOURNAME
-"Response is Hello! YOURNAME"
+$ curl  http://127.0.0.1:30080/greet/YOUR_NAME
+"Response is Hello! YOUR_NAME"
 
 $ make delete_greeter_service
 $ make delete_api
